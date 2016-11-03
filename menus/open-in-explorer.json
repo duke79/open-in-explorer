@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle open-in-explorer",
+        "command": "open-in-explorer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "open-in-explorer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "open-in-explorer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
